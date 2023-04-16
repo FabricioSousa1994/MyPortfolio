@@ -1,0 +1,271 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+
+  
+}
+
+
+
+@media (max-width: 480px) {
+  .main {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/desktop-wallpaper-portfolio.jpg");
+    background-size: cover;
+    min-height: 100vh; 
+    
+    }
+
+    .about {
+      min-height: 100vh;
+      margin-top: 1rem;
+    }
+
+    .projects {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+
+    .projects-cards {
+      margin: 1rem;
+    }
+
+
+    .contacts-container {
+      min-height: 100vh;
+      margin-top: 4rem !important;
+    }
+
+    .contact-heading {
+      text-align: center;
+    }
+
+    .contact-text {
+      text-align: center;
+    }
+    
+
+    .contact-links {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+
+
+    .contact-form {
+      margin: 2rem;
+    }
+    
+
+    .contact-card-testing {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    
+
+    
+
+    .chakra-wrap__list {
+      display: flex;
+      justify-content: center;
+    }
+
+  
+  }
+
+
+
+@media(min-width: 480px) and (max-width: 980px) {
+
+  .main {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/desktop-wallpaper-portfolio.jpg");
+    background-size: cover;
+    min-height: 100vh; 
+    
+    }
+
+    .about {
+      margin-top: 2rem;
+      min-height: 100vh;
+      
+    }
+
+    .projects {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+
+    .projects-cards {
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      
+      
+    }
+
+    .contacts-container {
+      min-height: 100vh;
+      margin-top: 4rem !important;
+      
+    }
+
+    
+      
+
+    .contact-box {
+      justify-content: center;
+      
+    }
+
+    .contact-card-testing {
+      width: 45rem;
+    }
+
+
+    .contact-heading {
+      text-align: center;
+    }
+
+    .contact-text {
+      text-align: center;
+    }
+
+    .css-4eo49r {
+      display: flex;
+      align-items: flex-start !important;
+    }
+
+    .chakra-wrap__list {
+      display: flex;
+      justify-content: center;
+      margin-left: -1.5rem;
+    }
+
+}
+
+
+@media (min-width: 990px) {
+
+  .main {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/desktop-wallpaper-portfolio.jpg");
+    background-size: cover;
+    min-height: 100vh; 
+    
+    }
+
+    .about {
+      margin-top: 2rem;
+      min-height: 100vh;
+      
+    }
+
+
+    .projects {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      margin-bottom: 2rem;
+    }
+
+
+    .projects-cards {
+      display:flex;
+      flex-direction: row;
+      text-align: justify;
+      gap: 1rem;
+      margin: 1rem;
+      width: 90%;
+            
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      width: 30rem;
+      
+    }
+
+    .project-images {
+      height: 10rem;      
+    }
+
+
+    .email-icon {
+      padding-left: 10rem;
+    }
+    
+
+     .contacts-container {
+      min-height: 100vh;
+     } 
+
+
+     .css-4eo49r {
+      display: flex;
+      align-items: flex-start !important;
+    }
+
+    .contact-text {
+      text-align: center;
+    }
+   
+      
+}
+
+
+
+
+
+.about-heading {
+  color: #08fdd8;
+}
+
+
+
+.projects-heading {
+  text-align: center;
+  color: #08fdd8;
+  
+}
+
+
+.projects-cards {
+  text-align: justify;
+}
+
+.contact-heading {
+  color: #08fdd8;
+  /* justify-content: center;
+  margin-top: 1.5rem */;
+}
+
+.certificate {
+  text-decoration: underline;
+  font-weight: bold;
+  color: lightskyblue;
+}
