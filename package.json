@@ -44,7 +44,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://FabricioSousa1994.github.io/MyPortfolio",
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
