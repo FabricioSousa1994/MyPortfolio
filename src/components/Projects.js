@@ -19,6 +19,7 @@ function Projects(props) {
       alt='Green double couch with wooden legs'
       borderRadius='lg'
       className="project-images"
+      w="full"
     />
     <Stack mt='6' spacing='3'>
       <Heading size='md' style={{color:"#08fdd8"}}>Auto Premium</Heading>
@@ -47,6 +48,7 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
       alt='Green double couch with wooden legs'
       borderRadius='lg'
       className="project-images"
+      w="full"
     />
     <Stack mt='6' spacing='3'>
       <Heading size='md' style={{color:"#08fdd8"}}>Dentinho da Madeira</Heading>
@@ -74,6 +76,7 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
       alt='Green double couch with wooden legs'
       borderRadius='lg'
       className="project-images"
+      w="full"
     />
     <Stack mt='6' spacing='3'>
       <Heading size='md' style={{color:"#08fdd8"}}>Road to 125</Heading>
