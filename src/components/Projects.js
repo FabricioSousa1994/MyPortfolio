@@ -13,7 +13,7 @@ function Projects(props) {
         <br/>
         <div className="projects-cards">
         <Card className="card">      
-  <CardBody>
+  <CardBody className="card-body">
     <Image
       src='auto-premium.jpg'
       alt='Green double couch with wooden legs'
@@ -28,9 +28,9 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
       </Text>
     </Stack>
   </CardBody>
-  <CardFooter>
+  <CardFooter className="card-footer">
         <a href="https://auto-premium.netlify.app/" target="_blank" rel="noopener noreferrer">
-      <Button variant='solid' style={{color:"#08fdd8"}}>
+      <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
         See project
       </Button>
       </a>
@@ -41,7 +41,7 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
 <br/>
 
 <Card className="card">
-  <CardBody>
+  <CardBody className="card-body">
     <Image
       src='dentinho-madeira.jpg'
       alt='Green double couch with wooden legs'
@@ -55,9 +55,9 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
       </Text>
     </Stack>
   </CardBody>
-  <CardFooter>
+  <CardFooter className="card-footer">
         <a href="https://dentolas-project.cyclic.app/" target="_blank" rel="noopener noreferrer">
-      <Button variant='solid' style={{color:"#08fdd8"}}>
+      <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
         See project
       </Button>
       </a>
@@ -68,7 +68,7 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
 <br/>
 
 <Card className="card">
-  <CardBody>
+  <CardBody className="card-body">
     <Image
       src="road-to-125.jpg"
       alt='Green double couch with wooden legs'
@@ -82,9 +82,9 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
       </Text>
     </Stack>
   </CardBody>
-  <CardFooter>
+  <CardFooter className="card-footer">
         <a href="https://roadto125.netlify.app/" target="_blank" rel="noopener noreferrer">
-      <Button variant='solid' style={{color:"#08fdd8"}}>
+      <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
         See project
       </Button>
       </a>

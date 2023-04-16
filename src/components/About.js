@@ -10,7 +10,6 @@ import {
 function About(props) {
   return (
     <Stack
-      bg={useColorModeValue("gray.50", "gray.800")}
       py={16}
       px={8}
       spacing={{ base: 8, md: 10 }}
@@ -26,7 +25,7 @@ function About(props) {
         maxW={"5xl"}
       >
         Hi there, I'm Fabrício Sousa, I'm 28 years old web developer from
-        Madeira Island Portugal, acutally living in Lisbom. Since 2015 I have
+        Madeira Island Portugal, acutally living in Lisbon. Since 2015 I have
         been working in the field of Justice, but techonology and what goes on
         behind the scenes in the digital world always fascinated me. That's why
         I decided to pursue my interest and enrolled in the Ironhack web

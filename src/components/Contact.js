@@ -16,7 +16,6 @@ import {
   InputGroup,
   InputLeftElement,
   Textarea,
-  useColorModeValue,
 } from '@chakra-ui/react';
 import {
   MdPhone,
@@ -55,7 +54,7 @@ function Contact(props) {
 
 
   return (
-    <Container bg={useColorModeValue("gray.50", "gray.800")} maxW="full" mt={0} centerContent overflow="hidden" id={props.id} className='contacts-container'>
+    <Container maxW="full" mt={0} centerContent overflow="hidden" id={props.id} className='contacts-container'>
       <Heading className="contact-heading">CONTACT</Heading>
       <br/>
       <Flex>

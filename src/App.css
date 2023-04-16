@@ -22,7 +22,7 @@
 
     .about {
       min-height: 100vh;
-      margin-top: 1rem;
+      
     }
 
     .projects {
@@ -40,7 +40,8 @@
 
     .contacts-container {
       min-height: 100vh;
-      margin-top: 4rem !important;
+      padding-top: 3rem;
+      
     }
 
     .contact-heading {
@@ -98,17 +99,13 @@
     
     }
 
-    .about {
-      margin-top: 2rem;
-      min-height: 100vh;
-      
-    }
 
     .projects {
       display:flex;
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
+      padding-top: 4rem;
     }
 
 
@@ -123,8 +120,8 @@
 
     .contacts-container {
       min-height: 100vh;
-      margin-top: 4rem !important;
-      
+      padding-top: 4rem;
+       
     }
 
     
@@ -176,7 +173,6 @@
     }
 
     .about {
-      margin-top: 2rem;
       min-height: 100vh;
       
     }
@@ -187,7 +183,7 @@
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
-      margin-bottom: 2rem;
+      padding-top: 5rem;
     }
 
 
@@ -222,6 +218,7 @@
 
      .contacts-container {
       min-height: 100vh;
+      padding-top: 5rem;
      } 
 
 
@@ -232,6 +229,10 @@
 
     .contact-text {
       text-align: center;
+    }
+
+    .contacts-container {
+      padding-top: 3rem;
     }
    
       
@@ -268,4 +269,40 @@
   text-decoration: underline;
   font-weight: bold;
   color: lightskyblue;
+}
+
+.nav {
+  background-color: #171923;
+  color: white;
+}
+
+.main {
+  background-color: #171923;
+  color: white;
+}
+
+.about {
+  background-color: #1a202c;
+  color: white;
+}
+
+.projects {
+  background-color: #1a202c;
+  color: white;
+}
+
+
+.card-body {
+  background-color: #2d3748;
+  color: white;
+}
+
+.card-footer {
+  background-color: #2d3748;
+}
+
+
+
+.contacts-container {
+  background-color: #1a202c;
 }
