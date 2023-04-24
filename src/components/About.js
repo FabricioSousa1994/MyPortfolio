@@ -18,14 +18,17 @@ function About(props) {
       id={props.id}
       className="about"
     >
+      
       <Heading className="about-heading"> Who am I?</Heading>
+
+      <Box className="about-div">
       <Text
         fontSize={{ base: "xl", md: "2xl" }}
         textAlign={"justify"}
         maxW={"5xl"}
       >
         Hi there, I'm Fabrício Sousa, I'm 28 years old web developer from
-        Madeira Island Portugal, acutally living in Lisbon. Since 2015 I have
+        Madeira Island Portugal, currently living in Lisbon. Since 2015 I have
         been working in the field of Justice, but techonology and what goes on
         behind the scenes in the digital world always fascinated me. That's why
         I decided to pursue my interest and enrolled in the Ironhack web
@@ -48,9 +51,11 @@ function About(props) {
         continue to learn, grow, and make a positive impact. Thank you for
         taking the time to learn more about me, scroll down to see my projects!
       </Text>
+
+
       <Box textAlign={"center"}>
         <Avatar
-          size="md"
+          size="x-lg"
           src={"fotoPerfil.jpg"}
           mb={2}
           className="about-avatar"
@@ -60,6 +65,7 @@ function About(props) {
         <Text fontSize={"sm"} color={useColorModeValue("gray.400", "gray.400")}>
           Fullstack Developer
         </Text>
+      </Box>
       </Box>
     </Stack>
   );

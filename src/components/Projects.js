@@ -30,11 +30,24 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
     </Stack>
   </CardBody>
   <CardFooter className="card-footer">
-        <a href="https://auto-premium.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://auto-premium.netlify.app/" target="_blank" rel="noopener noreferrer" className="projects-btn">
       <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
-        See project
+        Demo
       </Button>
       </a>
+
+
+      <a href="https://github.com/joaovff/Auto-Premium-Frontend" target="_blank" rel="noopener noreferrer">
+      <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
+        Code
+      </Button>
+      </a>
+
+        {/* <select variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
+        <option selected disabled hidden>Code</option>
+  <option value="frontend"><a href="https://github.com/joaovff/Auto-Premium-Frontend" target="_blank" rel="noopener noreferrer">Frontend</a></option>
+  <option value="backend"><a href="https://github.com/joaovff/Auto-Premium-Backend" target="_blank" rel="noopener noreferrer">Backend</a></option>
+</select>   */}    
     
   </CardFooter>
 </Card>
@@ -58,9 +71,15 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
     </Stack>
   </CardBody>
   <CardFooter className="card-footer">
-        <a href="https://dentolas-project.cyclic.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://dentolas-project.cyclic.app/" target="_blank" rel="noopener noreferrer" className="projects-btn">
       <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
-        See project
+        Demo
+      </Button>
+      </a>
+      
+      <a href="https://github.com/FabricioSousa1994/DentolasProject" target="_blank" rel="noopener noreferrer">
+      <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
+        Code
       </Button>
       </a>
     
@@ -86,9 +105,15 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
     </Stack>
   </CardBody>
   <CardFooter className="card-footer">
-        <a href="https://roadto125.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://roadto125.netlify.app/" target="_blank" rel="noopener noreferrer" className="projects-btn">
       <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
-        See project
+        Demo
+      </Button>
+      </a>
+
+      <a href="https://github.com/FabricioSousa1994/Project-Joao-e-Fabr-cio" target="_blank" rel="noopener noreferrer">
+      <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
+        Code
       </Button>
       </a>
     

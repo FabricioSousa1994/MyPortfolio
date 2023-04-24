@@ -25,6 +25,11 @@
       
     }
 
+    .css-xi606m {
+      padding-top: 2rem;
+    
+    }
+
     .projects {
       display:flex;
       flex-direction: column;
@@ -96,6 +101,11 @@
     background-image: url("/public/desktop-wallpaper-portfolio.jpg");
     background-size: cover;
     min-height: 100vh; 
+    
+    }
+
+    .css-xi606m {
+      padding-top: 2rem;
     
     }
 
@@ -177,13 +187,26 @@
       
     }
 
+    .about-div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
+    }
+    
+    .css-xi606m {
+      text-align: center;
+      padding-left: 2rem;
+    
+    }
+
 
     .projects {
       display:flex;
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
-      padding-top: 5rem;
+      padding-top: 2rem;
     }
 
 
@@ -289,6 +312,8 @@
 .projects {
   background-color: #1a202c;
   color: white;
+  padding-top: 1rem;
+  
 }
 
 
@@ -305,4 +330,14 @@
 
 .contacts-container {
   background-color: #1a202c;
+}
+
+
+.chakra-avatar about-avatar css-em5x7r {
+  width: 10rem !important;
+}
+
+
+.projects-btn {
+  padding-right: 1rem;
 }
