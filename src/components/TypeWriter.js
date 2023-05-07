@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 function TypeWriter() {
   const [text, setText] = useState('');
-  const sentence = "HI! I AM FABRÍCIO SOUSA, FULLSTACK WEB DEVELOPER"; 
+  const sentence = "HI, I AM FABRÍCIO SOUSA, FULLSTACK WEB DEVELOPER!"; 
   const delay = 120; 
 
   useEffect(() => {

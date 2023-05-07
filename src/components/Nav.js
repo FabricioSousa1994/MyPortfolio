@@ -71,7 +71,7 @@ function Nav() {
 
               <Box>
       {isOpen ? (
-          <Box pb={4} display={{ md: 'none' }} bg="#2d3748">
+          <Box pb={4} display={{ md: 'none' }} bg="#2d3748" style={{color: "white"}}>
             <Stack as={'nav'} spacing={4}>
               {Links.map((link) => (
                 <NavLink key={link.id} id={link.id}>{link.name}</NavLink>
