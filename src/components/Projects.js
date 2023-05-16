@@ -1,8 +1,18 @@
 
 import { Button, Card, CardBody, CardFooter, Heading, Image, Stack, Text } from "@chakra-ui/react"
+import { useState } from "react"
 
 
 function Projects(props) {
+
+  const [selectedOption, setSelectedOption] = useState("");
+
+  function handleOptionChange(event) {
+    if(event.target.value !== "") {
+      window.open(event.target.value, "_blank")
+    }
+    setSelectedOption(event.target.value)
+  }
 
   
   return (
@@ -36,21 +46,22 @@ The skills used on this website were React, NodeJS, MongoDB, JavaScript, HTML5 a
       </a>
 
 
-      <a href="https://github.com/joaovff/Auto-Premium-Frontend" target="_blank" rel="noopener noreferrer" className="projects-btn">
-      <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
-        Code (frontend)
-      </Button>
-      </a>
-
-      <a href="https://github.com/joaovff/Auto-Premium-Backend" target="_blank" rel="noopener noreferrer" className="projects-btn">
-      <Button variant='solid' style={{color:"#08fdd8", backgroundColor:"#3d4756"}}>
-        Code (backend)
-      </Button>
-      </a>
+      
+        <Button style={{color:"#08fdd8", backgroundColor:"#3d4756"}} variant="solid">
+        <select id="linkSelector" onChange={handleOptionChange} style={{color:"#08fdd8", backgroundColor:"#3d4756"}} variant="solid">
+          <option value="" className="code-btn">Code</option>
+          <option value="https://github.com/joaovff/Auto-Premium-Frontend">Frontend</option>
+          <option value="https://github.com/joaovff/Auto-Premium-Backend">Backend</option>
+        </select>
+        </Button>
+      
      
       
     
   </CardFooter>
+
+
+
 </Card>
 
 <br/>

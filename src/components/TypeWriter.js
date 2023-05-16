@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 function TypeWriter() {
   const [text, setText] = useState('');
-  const sentence = "HI, I AM FABRÍCIO SOUSA, FULLSTACK WEB DEVELOPER!"; 
+  const sentence = "HI, I AM FABRÍCIO SOUSA!"; 
   const delay = 120; 
 
   useEffect(() => {
@@ -23,7 +23,7 @@ function TypeWriter() {
   }, []);
 
   return (
-    <div>{text}</div>
+    <div className='title'>{text}</div>
   );
 }
 

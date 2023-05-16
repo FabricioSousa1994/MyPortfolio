@@ -18,7 +18,17 @@
     background-size: cover;
     min-height: 100vh; 
     color: white;
+    text-align: justify;
     
+    }
+
+    .paragraph {
+      padding: 1rem;
+    }
+
+    .title {
+      padding: 1rem;
+      text-align:start;
     }
 
     .nav {
@@ -59,12 +69,12 @@
     }
 
     .projects-btn {
-      padding-top: 1rem;
+      padding: 1rem;
     }
 
     .card-footer {
       display: flex;
-      flex-direction: column;
+      flex-direction:row;
       justify-content: center;
       align-items: center;
       background-color: #2d3748;
@@ -143,6 +153,11 @@
     
     }
 
+    .paragraph {
+      padding: 1rem;
+      text-align: justify;
+    }
+
 
     .projects {
       display:flex;
@@ -158,12 +173,13 @@
       flex-direction: column;
       text-align: center;
       justify-content: center;
+      padding: 1rem;
       
       
     }
 
     .projects-btn {
-      padding-left: 1rem;
+      padding-right: 1rem;
     }
   
 

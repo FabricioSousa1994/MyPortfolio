@@ -15,11 +15,11 @@ function Main(props) {
 
     const timeoutParagraph = setTimeout(() => {
       setShowParagraph(true);
-    }, 9000);
+    }, 5500);
 
     const timeoutBtn = setTimeout(() => {
       setShowBtn(true);
-    }, 10000);
+    }, 6000);
 
     return () => {
       clearTimeout(timeoutHeading, timeoutParagraph, timeoutBtn);
@@ -30,7 +30,7 @@ function Main(props) {
     <div className="main" id={props.id}>
       <div style={{fontSize: "xx-large"}}>{showDiv ? <Typewriter /> : null}</div>
       <br />
-      <div id="main-paragraph">{showParagraph ? "Welcome to my portfolio! My main concern is building responsive and intuitive websites and applications. Click on the button bellow to know more about me and my projects!" : null}</div>
+      <div id="main-paragraph" className="paragraph">{showParagraph ? "Welcome to my portfolio! My main concern is building responsive and intuitive websites and applications. Click on the button bellow to know more about me and my projects!" : null}</div>
       <br />
       
       <div>{showBtn ? <a href="#about"><Button style={{backgroundColor: "#08fdd8"}}>See more</Button></a> : null}</div>
