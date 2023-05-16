@@ -1,17 +1,15 @@
 
 import { Button, Card, CardBody, CardFooter, Heading, Image, Stack, Text } from "@chakra-ui/react"
-import { useState } from "react"
 
 
 function Projects(props) {
 
-  const [selectedOption, setSelectedOption] = useState("");
+  
 
   function handleOptionChange(event) {
     if(event.target.value !== "") {
       window.open(event.target.value, "_blank")
     }
-    setSelectedOption(event.target.value)
   }
 
   
